@@ -1,0 +1,6 @@
+1. install typescript , tsx 
+2. npx tsc --int -> to create tsconfig.json
+3. adjust rootDir="./src" and outDir="./dist" in tsconfig.json
+4. start the server with
+4. npx tsc -p . -> build the dist folder
+
