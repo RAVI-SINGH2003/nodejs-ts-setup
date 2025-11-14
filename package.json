@@ -2,7 +2,7 @@
   "name": "nodejs-ts-setup",
   "version": "1.0.0",
   "description": "This is a demo app for nodejs-ts-setup",
-  "main": "./dist/server.js",
+  "main": "dist/server.js",
   "scripts": {
     "start": "set NODE_ENV=PRODUCTION & node dist/sever.js",
     "dev": "tsx watch ./src/server.ts",
