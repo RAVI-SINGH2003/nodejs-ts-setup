@@ -1,6 +1,9 @@
-1. install typescript , tsx as dev dep.
-2. npx tsc --int -> to create tsconfig.json
-3. adjust rootDir="./src" and outDir="./dist" in tsconfig.json
-4. start the dev server with npm run dev
-5. npx tsc -p . -> build the dist folder or directly use npm run start
+1. npm init -y
+2. change in package.json "type": "module",
+3. install typescript , tsx as dev dep. -> npm i -D typescript tsx
+4. npx tsc --int -> to create tsconfig.json
+5. adjust rootDir="./src" and outDir="./dist" in tsconfig.json
+6. start the dev server with npm run dev
+7. to make build use npm run build
+8. to start the build using npm run start
 
